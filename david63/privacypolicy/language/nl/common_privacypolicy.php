@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'ACCEPT_DATE'		=> 'Beleids Actiedatum',
+	'ACCEPT_DATE'		=> 'Beleids acceptatie datum',
 
 	'BIRTHDAY'			=> 'Verjaardag',
 

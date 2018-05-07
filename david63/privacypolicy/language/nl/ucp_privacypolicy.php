@@ -4,7 +4,7 @@
 * @package Privacy Policy Extension
 * @copyright (c) 2018 david63
 * Nederlandse vertaling @ Solidjeuh <https://www.muziekpromo.net>
-* * @license GNU General Public License, version 2 (GPL-2.0)
+* @license GNU General Public License, version 2 (GPL-2.0)
 *
 */
 
@@ -40,4 +40,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'PRIVACY_POLICY_EXPLAIN'	=> 'Hieronder vindt u de details van uw persoonlijke gegevens die wij op deze site opslaan.',
 	'PRIVACY_TITLE'				=> 'Privacybeleid Gegevens',
+	
+	'YOUR_POSTS'				=> 'Je berichten',
+	'YOUR_POSTS_EXPLAIN'		=> 'Klik op de link voor een lijst met al je berichten'
 ));

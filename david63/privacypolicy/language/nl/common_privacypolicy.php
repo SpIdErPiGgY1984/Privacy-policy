@@ -4,7 +4,7 @@
 * @package Privacy Policy Extension
 * @copyright (c) 2018 david63
 * Nederlandse vertaling @ Solidjeuh <https://www.muziekpromo.net>
-* * @license GNU General Public License, version 2 (GPL-2.0)
+* @license GNU General Public License, version 2 (GPL-2.0)
 *
 */
 
@@ -49,6 +49,7 @@ $lang = array_merge($lang, array(
 	'REG_DATE'			=> 'Registratie datum',
 	'REG_IP'			=> 'Registratie IP',
 
+	'USERNAME'			=> 'Gebruikersnaam',
 	'USER_IPS'			=> 'IP adressen die u hebt gebruikt',
 	
 	'VERSION'			=> 'Versie',

@@ -4,7 +4,7 @@
 * @package Privacy Policy Extension
 * @copyright (c) 2018 david63
 * Nederlandse vertaling @ Solidjeuh <https://www.muziekpromo.net>
-* * @license GNU General Public License, version 2 (GPL-2.0)
+* @license GNU General Public License, version 2 (GPL-2.0)
 *
 */
 
@@ -42,7 +42,6 @@ $lang = array_merge($lang, array(
 
 	'CLICK_TO_SELECT'						=> 'Klik in het vak om een kleur te selecteren',
 
-	'CONFIRM_RESET'							=> 'Weet u zeker dat u de acceptatie gegevens van het Privacybeleid voor alle leden opnieuw wilt instellen?',
 	'COOKIE_BLOCK_LINKS'					=> 'Blokkeer alle koppelingen (linken)',
 	'COOKIE_BLOCK_LINKS_EXPLAIN'			=> 'Voorkom dat een gebruiker toegang krijgt tot links op het bord totdat hij het Cookiebeleid heeft geaccepteerd.',
 	'COOKIE_BOX_BDR_COLOUR'					=> 'Rand kleur voor de rand van het Cookie vak',
@@ -55,8 +54,6 @@ $lang = array_merge($lang, array(
 	'COOKIE_BOX_HREF_COLOUR_EXPLAIN'		=> 'Selecteer de kleur van de acceptatie link voor het vak “Cookie acceptatie”.<br />De standaard kleur is <strong>“#FFFFFF”</strong>',
 	'COOKIE_BOX_TXT_COLOUR'					=> 'Cookie vak tekstkleur',
 	'COOKIE_BOX_TXT_COLOUR_EXPLAIN'			=> 'Selecteer de tekstkleur voor het vak “Cookie acceptatie”.<br />De standaard kleur is <strong>“#DBDB00”</strong>',
-	'COOKIE_BOX_POSITION'					=> 'Cookie vak positie',
-	'COOKIE_BOX_POSITION_EXPLAIN'			=> 'Plaats het cookie aanvink vakje links of rechts.',
 
 	'COOKIE_CUSTOM_PAGE'					=> 'Gebruik aangepaste kleuren voor de cookie pagina',
 	'COOKIE_CUSTOM_PAGE_CORNERS'			=> 'Gebruik afgeronde hoeken',
@@ -67,8 +64,6 @@ $lang = array_merge($lang, array(
 
 	'COOKIE_EXPIRE'							=> 'Cookie vervalt',
 	'COOKIE_EXPIRE_EXPLAIN'					=> 'Als u dit instelt op Ja, moet de gebruiker het Cookiebeleid jaarlijks opnieuw accepteren.',
-
-	'COOKIE_LEFT'							=> 'Links',
 
 	'COOKIE_PAGE_BG_COLOUR'					=> 'Aangepaste achtergrondkleur van de cookie pagina',
 	'COOKIE_PAGE_BG_COLOUR_EXPLAIN'			=> 'Selecteer de achtergrondkleur voor de pagina Cookiebeleid.',
@@ -84,7 +79,6 @@ $lang = array_merge($lang, array(
 
 	'COOKIE_REQUIRE'						=> 'Vereisen van cookie acceptatie',
 	'COOKIE_REQUIRE_EXPLAIN'				=> 'Vereis dat forum cookies worden geaccepteerd voordat een lid zich kan registreren of kan inloggen.<br />Als u dit op "Ja" instelt, kan een gebruiker het bord nog steeds bekijken (afhankelijk van de rechten).',
-	'COOKIE_RIGHT'					   		=> 'Rechts',
 
 	'COOKIE_SHOW_POLICY'					=> 'Toon privacy/cookie beleid',
 	'COOKIE_SHOW_POLICY_EXPLAIN'			=> 'Als u dit instelt op ja, wordt in de navigatie balk een link weergegeven naar het privacy/cookiebeleid wanneer het Cookiebeleid is uitgeschakeld, dat wil zeggen dat u een privacy/cookiebeleid kunt hebben zonder dat u het acceptatie vak hoeft te hebben.',
@@ -98,9 +92,13 @@ $lang = array_merge($lang, array(
 	'POLICIES'								=> 'Beleid',
 	'PRIVACY_POLICY_ENABLE'					=> 'Schakel het Privacybeleid in',
 	'PRIVACY_POLICY_ENABLE_EXPLAIN'			=> 'Schakel alle gebruikers vereisten in/uit om de GDPR (2018) op dit forum te accepteren.',
+	'PRIVACY_POLICY_LIST_LINES'				=> 'Privacybeleid regels',
+	'PRIVACY_POLICY_LIST_LINES_EXPLAIN'		=> 'Het aantal regels dat moet worden weergegeven in de <em>Privacybeleid Lijst</em>.',
 	'PRIVACY_POLICY_OPTIONS'				=> 'Privacybeleid opties',
 	'PRIVACY_POLICY_FORCE'					=> 'Privacy acceptatie afdwingen',
 	'PRIVACY_POLICY_FORCE_EXPLAIN'			=> 'Alle gebruikers op dit forum dwingen de GDPR te accepteren.',
 	'PRIVACY_POLICY_RESET'					=> 'Reset beleid acceptatie',
 	'PRIVACY_POLICY_RESET_EXPLAIN'			=> 'Reset de acceptatie van het beleid zodat leden het Privacybeleid opnieuw moeten accepteren.<br />Zodra dit is uitgevoerd, moet u "<strong>Gedwongen privacy acceptatie</strong>" instellen op "<strong>Ja</strong>"<br />Als u deze optie op "Ja" zet, worden ook de phpBB cookies gereset waardoor alle leden opnieuw moeten inloggen.',
+
+	'VERSION'								=> 'Versie',
 ));

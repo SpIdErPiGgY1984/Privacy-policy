@@ -21,7 +21,7 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-/// DEVELOPERS PLEASE NOTE
+// DEVELOPERS PLEASE NOTE
 //
 // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
 //
@@ -38,10 +38,9 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'ACP_PRIVACY_POLICY_EXPLAIN'	=> 'Hier kunt u de privacy gegevens van een gebruiker selecteren en bekijken.',
-	'ACP_PRIVACY_TITLE'				=> 'Privacybeleid Gegevens',
-	'DETAILS_FOR'					=> 'Privacy gegevens voor : %1$s',
-
-	'SELECT_USERNAME_EXPLAIN'		=> 'De gebruiker van wie u de privacy gegevens wilt bekijken.',
-	'SELECT_USERNAME'				=> 'Selecteer gebruikersnaam',
+	'ACL_A_PRIVACY_MANAGE'	=> 'Kan privacy opties beheren',
+	'ACL_A_PRIVACY_VIEW'	=> 'Kan privacy gegevens van gebruikers bekijken',
+	'ACL_U_PRIVACY_VIEW'	=> 'Kan privacy gegevens bekijken',
 ));
+
+?>

@@ -4,7 +4,7 @@
 * @package Privacy Policy Extension
 * @copyright (c) 2018 david63
 * Nederlandse vertaling @ Solidjeuh <https://www.muziekpromo.net>
-* * @license GNU General Public License, version 2 (GPL-2.0)
+* @license GNU General Public License, version 2 (GPL-2.0)
 *
 */
 
@@ -38,19 +38,19 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'ACP_USER_UTILS'		=> 'Gebruikers hulpprogramma’s',
+	'ACP_USER_UTILS'		    => 'Gebruikers hulpprogramma’s',
 
-	'COOKIE_POLICY'			=> 'Privacy & cookiebeleid',
-	'COOKIE_POLICY_LOG'		=> '<strong>Privacybeleid instellingen bijgewerkt</strong>',
-
-	'LOG_CURL_ERROR'		=> '<strong>cURL is niet beschikbaar op deze server</strong>',
-	'LOG_IP_LOOKUP_ERROR'	=> '<strong>het opzoeken van IP is mislukt</strong>',
-	'LOG_QUOTA_EXCEEDED'	=> '<strong>Het uurlijkse opzoek quotum is overschreden</strong>',
-	'LOG_SERVER_ERROR'		=> '<strong>Kon het IP adres niet bepalen</strong>',
-
-	'PRIVACY_DATA'			=> 'Privacy gegevens',
-	'PRIVACY_LIST'			=> 'Privacy lijst',
-	'PRIVACY_POLICY'		=> 'Privacybeleid',
-	'PRIVACY_POLICY_MANAGE'	=> 'Privacybeleid instellingen',
-	'POLICY_RESET_LOG'		=> '<strong>Reset van beleid acceptatie</strong>',
+	'COOKIE_POLICY'			    => 'Privacy & cookiebeleid',
+	
+	'POLICY_RESET_LOG'		    => '<strong>Reset van beleid acceptatie</strong>',	
+	'PRIVACY_DATA'			    => 'Privacy gegevens',
+	'PRIVACY_EDIT_CREATED'	    => 'Nieuw privacybeleid aangemaakt',
+	'PRIVACY_EDIT_UPDATED'	    => 'Privacybeleid bijgewerkt',
+	'PRIVACY_LIST'			    => 'Privacy lijst',
+	'PRIVACY_POLICY'		    => 'Privacybeleid',
+	'PRIVACY_POLICY_ADD_LOG'	=> '<strong>Privacybeleid toegevoegd</strong>',
+	'PRIVACY_POLICY_EDIT'		=> 'Taal gegevens bijgewerkt',
+	'PRIVACY_POLICY_EDIT_LOG'	=> '<strong>Privacybeleid bewerkt</strong>',
+	'PRIVACY_POLICY_LOG'		=> '<strong>Privacybeleid instellingen bijgewerkt</strong>',
+	'PRIVACY_POLICY_MANAGE'		=> 'Privacybeleid instellingen',
 ));

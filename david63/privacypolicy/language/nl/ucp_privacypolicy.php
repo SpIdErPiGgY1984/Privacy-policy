@@ -38,9 +38,9 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'PRIVACY_POLICY_EXPLAIN'	=> 'Hieronder vindt u de details van uw persoonlijke gegevens die wij op deze site opslaan.',
-	'PRIVACY_TITLE'				=> 'Privacybeleid Gegevens',
+	'UCP_PRIVACY_POLICY_EXPLAIN'	=> 'Hieronder vindt u de details van uw persoonlijke gegevens die wij op deze site opslaan.',
+	'UCP_PRIVACY_TITLE'				=> 'Privacybeleid Gegevens',
 	
-	'YOUR_POSTS'				=> 'Je berichten',
-	'YOUR_POSTS_EXPLAIN'		=> 'Klik op de link voor een lijst met al je berichten'
+	'YOUR_POSTS'				    => 'Je berichten',
+	'YOUR_POSTS_EXPLAIN'		    => 'Klik op de link voor een lijst met al je berichten'
 ));

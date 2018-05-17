@@ -40,7 +40,10 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ACP_PRIVACY_POLICY_EXPLAIN'	=> 'Hier kunt u de privacy gegevens van een gebruiker selecteren en bekijken.',
 	'ACP_PRIVACY_TITLE'				=> 'Privacybeleid Gegevens',
+
 	'DETAILS_FOR'					=> 'Privacy gegevens voor : %1$s',
+
+	'NO_USERNAME'					=> 'Geen gebruikersnaam ingevoerd',
 
 	'SELECT_USERNAME_EXPLAIN'		=> 'De gebruiker van wie u de privacy gegevens wilt bekijken.',
 	'SELECT_USERNAME'				=> 'Selecteer gebruikersnaam',

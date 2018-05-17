@@ -38,34 +38,6 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'ACCEPT_DATE'		=> 'Beleids acceptatie datum',
-
-	'BIRTHDAY'			=> 'Verjaardag',
-
-	'NO_BIRTHDAY'		=> 'Geen verjaardag ingevoerd',
-	'NO_DATA_ENTERED'	=> 'Er zijn geen gegevens ingevoerd',
-	'NOT_ACCEPTED'		=> 'Beleid is niet geaccepteerd',
-
-	'REG_DATE'			=> 'Registratie datum',
-	'REG_IP'			=> 'Registratie IP',
-
-	'USERNAME'			=> 'Gebruikersnaam',
-	'USER_IPS'			=> 'IP adressen die u hebt gebruikt',
-	
-	'VERSION'			=> 'Versie',
-
-	'priv_months'		=> array(
-		1	=> 'Januari',
-		2	=> 'Februari',
-		3	=> 'Maart',
-		4	=> 'April',
-		5	=> 'Mei',
-		6	=> 'Juni',
-		7	=> 'Juli',
-		8	=> 'Augustus',
-		9 	=> 'September',
-		10	=> 'Oktober',
-		11	=> 'November',
-		12	=> 'December',
-	),
+	'SHOW_PRIVACY_PROFILE_FIELD'			=> 'Veld weergeven op privacy gegevens',
+	'SHOW_PRIVACY_PROFILE_FIELD_EXPLAIN'	=> 'Als deze optie is ingeschakeld, wordt het veld weergegeven op de pagina “Privacy gegevens” in het gebruikerspaneel en de “Privacy gegevens” van een gebruiker in het beheerderspaneel.',
 ));

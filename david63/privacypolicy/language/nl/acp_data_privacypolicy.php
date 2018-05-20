@@ -43,6 +43,8 @@ $lang = array_merge($lang, array(
 
 	'DETAILS_FOR'					=> 'Privacy gegevens voor : %1$s',
 
+	'INVALID_USERNAME'				=> 'Ongeldige gebruikersnaam opgegeven',
+
 	'NO_USERNAME'					=> 'Geen gebruikersnaam ingevoerd',
 
 	'SELECT_USERNAME_EXPLAIN'		=> 'De gebruiker van wie u de privacy gegevens wilt bekijken.',

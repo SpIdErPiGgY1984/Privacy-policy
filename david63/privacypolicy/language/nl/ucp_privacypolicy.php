@@ -38,9 +38,12 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
+	'CSV_DOWNLOAD'					=> 'Download CSV-bestand van deze gegevens',
+
+	'REMOVE_ACCOUNT'				=> 'Klik op deze link om een e-mail te sturen naar de beheerder van het forum met het verzoek om uw account te verwijderen',
+	'REMOVE_MY_ACCOUNT'				=> 'Gelieve mijn account te verwijderen',
+	'REMOVE_MY_ACCOUNT_BODY'		=> 'Ik wens niet langer lid te zijn van dit forum en wil je vragen dat mijn gegevens worden verwijderd in overeenstemming met de GDPR (2018) wetgeving. %1$sMijn gebruikersnaam is %2$s',
+
 	'UCP_PRIVACY_POLICY_EXPLAIN'	=> 'Hieronder vindt u de details van uw persoonlijke gegevens die wij op deze site opslaan.',
 	'UCP_PRIVACY_TITLE'				=> 'Privacybeleid Gegevens',
-	
-	'YOUR_POSTS'				    => 'Je berichten',
-	'YOUR_POSTS_EXPLAIN'		    => 'Klik op de link voor een lijst met al je berichten'
 ));

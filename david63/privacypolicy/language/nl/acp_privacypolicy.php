@@ -97,8 +97,8 @@ $lang = array_merge($lang, array(
 	'PRIVACY_POLICY_LIST_LINES'				=> 'Privacybeleid regels',
 	'PRIVACY_POLICY_LIST_LINES_EXPLAIN'		=> 'Het aantal regels dat moet worden weergegeven in de <em>Privacybeleid Lijst</em>.',
 	'PRIVACY_POLICY_OPTIONS'				=> 'Privacybeleid opties',
-	'PRIVACY_POLICY_FORCE'					=> 'Privacy acceptatie afdwingen',
-	'PRIVACY_POLICY_FORCE_EXPLAIN'			=> 'Alle gebruikers op dit forum dwingen de GDPR te accepteren.',
+	'PRIVACY_POLICY_REMOVE'					=> 'Toon verwijder link',
+	'PRIVACY_POLICY_REMOVE_EXPLAIN'			=> 'Geef op het tabblad “Privacy gegevens” in de gebruikerscode van de gebruiker de mailto-link weer om de verwijdering van hun account aan te vragen.',
 	'PRIVACY_POLICY_RESET'					=> 'Reset beleid acceptatie',
 	'PRIVACY_POLICY_RESET_EXPLAIN'			=> 'Reset de acceptatie van het beleid zodat leden het Privacybeleid opnieuw moeten accepteren.<br />Zodra dit is uitgevoerd, moet u "<strong>Gedwongen privacy acceptatie</strong>" instellen op "<strong>Ja</strong>"<br />Als u deze optie op "Ja" zet, worden ook de phpBB cookies gereset waardoor alle leden opnieuw moeten inloggen.',
 

@@ -41,6 +41,7 @@ $lang = array_merge($lang, array(
 	'ACCEPT_DATE'		=> 'Beleids acceptatie datum',
 
 	'BIRTHDAY'			=> 'Verjaardag',
+	'IP_ANONYMISED'		=> 'Uw IP-adressen werden geanonimiseerd',
 
 	'NO_BIRTHDAY'		=> 'Geen verjaardag ingevoerd',
 	'NO_DATA_ENTERED'	=> 'Er zijn geen gegevens ingevoerd',

@@ -38,19 +38,23 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'ACP_USER_UTILS'		    => 'Gebruikers hulpprogramma’s',
+	'ACP_USER_UTILS'		        => 'Gebruikers hulpprogramma’s',
+	'AUTOGROUPS_TYPE_PPACCPT'	    => 'Privacybeleid geaccepteerd',
 
-	'COOKIE_POLICY'			    => 'Privacy & cookiebeleid',
-	
-	'POLICY_RESET_LOG'		    => '<strong>Reset van beleid acceptatie</strong>',	
-	'PRIVACY_DATA'			    => 'Privacy gegevens',
-	'PRIVACY_EDIT_CREATED'	    => 'Nieuw privacybeleid aangemaakt',
-	'PRIVACY_EDIT_UPDATED'	    => 'Privacybeleid bijgewerkt',
-	'PRIVACY_LIST'			    => 'Privacy lijst',
-	'PRIVACY_POLICY'		    => 'Privacybeleid',
-	'PRIVACY_POLICY_ADD_LOG'	=> '<strong>Privacybeleid toegevoegd</strong>',
-	'PRIVACY_POLICY_EDIT'		=> 'Taal gegevens bijgewerkt',
-	'PRIVACY_POLICY_EDIT_LOG'	=> '<strong>Privacybeleid bewerkt</strong>',
-	'PRIVACY_POLICY_LOG'		=> '<strong>Privacybeleid instellingen bijgewerkt</strong>',
-	'PRIVACY_POLICY_MANAGE'		=> 'Privacybeleid instellingen',
+	'COOKIE_POLICY'			        => 'Privacy & cookiebeleid',
+
+	'POLICY_RESET_LOG'		        => '<strong>Reset van beleid acceptatie</strong>',
+	'POLICY_USER_ACCEPT_LOG'	    => '<strong>Privacybeleid acceptatie ingesteld voor gebruiker</strong><br />»» %1$s',
+	'POLICY_USER_UNSET_LOG'		    => '<strong>Privacybeleid acceptatie uitgeschakeld voor gebruiker</strong><br />»» %1$s',
+	'PRIVACY_DATA'			        => 'Privacy gegevens',
+	'PRIVACY_LIST'			        => 'Privacy lijst',
+	'PRIVACY_POLICY'		        => 'Privacybeleid',
+	'PRIVACY_POLICY_ADD_LOG'	    => '<strong>Privacybeleid toegevoegd</strong>',
+	'PRIVACY_POLICY_EDIT'		    => 'Taal gegevens bijgewerkt',
+	'PRIVACY_POLICY_EDIT_LOG'	    => '<strong>Privacybeleid bewerkt</strong>',
+	'PRIVACY_POLICY_LOG'		    => '<strong>Privacybeleid instellingen bijgewerkt</strong>',
+	'PRIVACY_POLICY_MANAGE'		    => 'Privacybeleid instellingen',
+
+	'TAPATALK_INSTALLED'			=> 'Tapatalk gedetecteerd',
+	'TAPATALK_INSTALLED_EXPLAIN'	=> 'De Tapatalk extensie is gedetecteerd als zijnde geïnstalleerd op dit forum, wat niet compatibel is met de Privacybeleid extensie.<br /><br />Dit betekent dat alle Tapatalk gebruikers die dit forum bezoeken niet zullen worden onderworpen aan de vereisten van het Privacybeleid.',
 ));

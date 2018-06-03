@@ -52,6 +52,9 @@ $lang = array_merge($lang, array(
 	'LAST_VISIT'			=> 'Laatste bezoek',
 
 	'NO_VISIT'				=> 'Gebruiker heeft forum nooit bezocht',
+	'NOT_ACCEPTED'			=> 'Niet geaccepteerd',
+
+	'OTHER'					=> 'Overige',
 
 	'PAGE_NUMBER'			=> 'Pagina',
 	'PRIVACY_LIST_EXPLAIN'	=> 'Hier is een lijst met alle forum leden en de datum waarop ze het privacybeleid van dit forum hebben geaccepteerd.',

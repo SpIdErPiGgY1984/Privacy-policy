@@ -90,6 +90,10 @@ $lang = array_merge($lang, array(
 
 	'PIXELS'								=> 'px',
 	'POLICIES'								=> 'Beleid',
+	'PRIVACY_POLICY_ANONYMISE'				=> 'IP-adressen anonimiseren',
+	'PRIVACY_POLICY_ANONYMISE_EXPLAIN'		=> 'Anonimiseer het IP-adres van de gebruiker op berichten, polls en PB’s.<br /><em>Het echte IP-adres van de gebruiker wordt nog steeds gebruikt in delen van het forum waar dit nodig is voor het juiste beheer van het forum.</em>',
+	'PRIVACY_POLICY_ANONYMISE_IP'			=> 'IP-adres anonimiseren',
+	'PRIVACY_POLICY_ANONYMISE_IP_EXPLAIN'	=> 'Het IP-adres dat moet worden gebruikt voor de anonimisering.<br /><strong>This must be a valid IP address</strong>',
 	'PRIVACY_POLICY_ENABLE'					=> 'Schakel het Privacybeleid in',
 	'PRIVACY_POLICY_ENABLE_EXPLAIN'			=> 'Schakel alle gebruikers vereisten in/uit om de GDPR (2018) op dit forum te accepteren.',
 	'PRIVACY_POLICY_FORCE'					=> 'Privacy acceptatie afdwingen',

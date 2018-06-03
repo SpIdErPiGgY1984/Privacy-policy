@@ -50,8 +50,10 @@ $lang = array_merge($lang, array(
 	'POLICY_SELECT_LANGUAGE'			=> 'Selecteer taal',
 	'PRIVACY_ACCEPT_EDIT_EXPLAIN'		=> 'Hier kunt u het privacy acceptatiebeleid van het forum aanpassen.',
 	'PRIVACY_ACCEPT_EDIT_EXPLAIN_NEW'	=> 'Hier kunt u een nieuw privacy acceptatiebeleid toevoegen.<br />Het privacy acceptatiebeleid wordt weergegeven na het privacybeleid.',
+	'PRIVACY_EDIT_CREATED'				=> 'Nieuw privacybeleid aangemaakt »» %1$s',
 	'PRIVACY_EDIT_EXPLAIN'				=> 'Hier kunt u het privacybeleid van het forum aanpassen.',
 	'PRIVACY_EDIT_EXPLAIN_NEW'			=> 'Hier kunt u een nieuw privacybeleid toevoegen.<br />Het privacybeleid is het belangrijkste beleid dat de privacyregels van dit forum beschrijft.',
+	'PRIVACY_EDIT_UPDATED'				=> 'Privacybeleid bijgewerkt »» %1$s',
 
 	'TERM_OF_USE_EDIT_EXPLAIN'			=> 'Hier kunt u het aanvullende Beleid voor gebruiksvoorwaarden van het forum aanpassen.',
 	'TERM_OF_USE_EDIT_EXPLAIN_NEW'		=> 'Hier kunt u een nieuw aanvullend Beleid voor Gebruiksvoorwaarden toevoegen.<br />Dit wordt weergegeven na de hoofdvoorwaarden wanneer een nieuwe gebruiker zich op het forum wil registreren.',

@@ -38,6 +38,8 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
+	'ACCEPT_ME'						=> 'Accepteer het Privacybeleid voor leden',
+	'ACCEPT_REMOVE'					=> 'Acceptatie voor lid verwijderen',
 	'ACP_PRIVACY_POLICY_EXPLAIN'	=> 'Hier kunt u de privacy gegevens van een gebruiker selecteren en bekijken.',
 	'ACP_PRIVACY_TITLE'				=> 'Privacybeleid Gegevens',
 
@@ -45,7 +47,11 @@ $lang = array_merge($lang, array(
 
 	'INVALID_USERNAME'				=> 'Ongeldige gebruikersnaam opgegeven',
 
+	'NO_IPS_FOUND'				    => 'Geen IP’s gevonden',
 	'NO_USERNAME'					=> 'Geen gebruikersnaam ingevoerd',
+
+	'POLICY_ACCEPTANCE_SET'			=> 'Privacybeleid acceptatie ingesteld voor %1$s',
+	'POLICY_ACCEPTANCE_UNSET'		=> 'Privacybeleid acceptatie ongedaan gemaakt voor %1$s',
 
 	'SELECT_USERNAME_EXPLAIN'		=> 'De gebruiker van wie u de privacy gegevens wilt bekijken.',
 	'SELECT_USERNAME'				=> 'Selecteer gebruikersnaam',

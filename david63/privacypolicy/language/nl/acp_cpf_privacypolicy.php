@@ -3,7 +3,6 @@
 *
 * @package Privacy Policy Extension
 * @copyright (c) 2018 david63
-* Nederlandse vertaling @ Solidjeuh <https://www.muziekpromo.net>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 */
@@ -39,5 +38,5 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'SHOW_PRIVACY_PROFILE_FIELD'			=> 'Veld weergeven op privacy gegevens',
-	'SHOW_PRIVACY_PROFILE_FIELD_EXPLAIN'	=> 'Als deze optie is ingeschakeld, wordt het veld weergegeven op de pagina “Privacy gegevens” in het gebruikerspaneel en de “Privacy gegevens” van een gebruiker in het beheerderspaneel.',
+	'SHOW_PRIVACY_PROFILE_FIELD_EXPLAIN'	=> 'Als deze optie is ingeschakeld, wordt het veld weergegeven op de pagina “Privacy gegevens”in het gebruikerspaneel en de “Privacy gegevens” van een gebruiker in het beheerderspaneel.',
 ));

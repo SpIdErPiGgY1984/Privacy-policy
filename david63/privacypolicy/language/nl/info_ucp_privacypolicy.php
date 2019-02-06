@@ -3,7 +3,6 @@
 *
 * @package Privacy Policy Extension
 * @copyright (c) 2018 david63
-* Nederlandse vertaling @ Solidjeuh <https://www.muziekpromo.net>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 */
@@ -40,6 +39,6 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'PRIVACY_DETAILS' 	=> 'Privacy details',
 	'PRIVACY_POLICY'	=> 'Privacybeleid',
-	
+
 	'UCP_PRIVACY'		=> 'Privacy Gegevens',
 ));

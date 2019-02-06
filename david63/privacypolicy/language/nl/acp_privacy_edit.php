@@ -3,7 +3,6 @@
 *
 * @package Privacy Policy Extension
 * @copyright (c) 2018 david63
-* Nederlandse vertaling @ Solidjeuh <https://www.muziekpromo.net>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 */
@@ -39,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'COOKIE_EDIT_EXPLAIN'				=> 'Hier kunt u het Cookiebeleid van het forum aanpassen.',
-	'COOKIE_EDIT_EXPLAIN_NEW'			=> 'Hier kunt u een nieuw Cookiebeleid toevoegen.<br />Het Cookiebeleid wordt weergegeven wanneer het Cookiebeleid is ingeschakeld en een gebruiker klikt op de koppeling “Cookie/Privacybeleid” in de navigatie balk onderaan.',
+	'COOKIE_EDIT_EXPLAIN_NEW'			=> 'Hier kunt u een nieuw Cookiebeleid toevoegen.<br>Het Cookiebeleid wordt weergegeven wanneer het Cookiebeleid is ingeschakeld en een gebruiker klikt op de koppeling “Cookie/Privacybeleid” in de navigatie balk onderaan.',
 
 	'POLICY_DESCRIPTION'				=> 'Naam beleidsbestand',
 	'POLICY_DESCRIPTION_EXPLAIN'		=> 'De weergave naam van dit beleidsbestand en moet in de vereiste taal worden vertaald.',
@@ -49,14 +48,14 @@ $lang = array_merge($lang, array(
 	'POLICY_SELECT_FILE'		   		=> 'Selecteer bestand',
 	'POLICY_SELECT_LANGUAGE'			=> 'Selecteer taal',
 	'PRIVACY_ACCEPT_EDIT_EXPLAIN'		=> 'Hier kunt u het privacy acceptatiebeleid van het forum aanpassen.',
-	'PRIVACY_ACCEPT_EDIT_EXPLAIN_NEW'	=> 'Hier kunt u een nieuw privacy acceptatiebeleid toevoegen.<br />Het privacy acceptatiebeleid wordt weergegeven na het privacybeleid.',
+	'PRIVACY_ACCEPT_EDIT_EXPLAIN_NEW'	=> 'Hier kunt u een nieuw privacy acceptatiebeleid toevoegen.<br>Het privacy acceptatiebeleid wordt weergegeven na het privacybeleid.',
 	'PRIVACY_EDIT_CREATED'				=> 'Nieuw privacybeleid aangemaakt »» %1$s',
 	'PRIVACY_EDIT_EXPLAIN'				=> 'Hier kunt u het privacybeleid van het forum aanpassen.',
-	'PRIVACY_EDIT_EXPLAIN_NEW'			=> 'Hier kunt u een nieuw privacybeleid toevoegen.<br />Het privacybeleid is het belangrijkste beleid dat de privacyregels van dit forum beschrijft.',
+	'PRIVACY_EDIT_EXPLAIN_NEW'			=> 'Hier kunt u een nieuw privacybeleid toevoegen.<br>Het privacybeleid is het belangrijkste beleid dat de privacyregels van dit forum beschrijft.',
 	'PRIVACY_EDIT_UPDATED'				=> 'Privacybeleid bijgewerkt »» %1$s',
 
 	'TERM_OF_USE_EDIT_EXPLAIN'			=> 'Hier kunt u het aanvullende Beleid voor gebruiksvoorwaarden van het forum aanpassen.',
-	'TERM_OF_USE_EDIT_EXPLAIN_NEW'		=> 'Hier kunt u een nieuw aanvullend Beleid voor Gebruiksvoorwaarden toevoegen.<br />Dit wordt weergegeven na de hoofdvoorwaarden wanneer een nieuwe gebruiker zich op het forum wil registreren.',
+	'TERM_OF_USE_EDIT_EXPLAIN_NEW'		=> 'Hier kunt u een nieuw aanvullend Beleid voor Gebruiksvoorwaarden toevoegen.<br>Dit wordt weergegeven na de hoofdvoorwaarden wanneer een nieuwe gebruiker zich op het forum wil registreren.',
 
 	'SITENAME'							=> 'Site naam',
 	'SITENAME_HELP'						=> 'Plaats de site naam plaatshouder (%sitename%)',

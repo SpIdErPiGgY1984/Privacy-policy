@@ -3,7 +3,6 @@
 *
 * @package Privacy Policy Extension
 * @copyright (c) 2018 david63
-* Nederlandse vertaling @ Solidjeuh <https://www.muziekpromo.net>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 */
@@ -45,22 +44,22 @@ $lang = array_merge($lang, array(
 	'COOKIE_BLOCK_LINKS'					=> 'Blokkeer alle koppelingen (linken)',
 	'COOKIE_BLOCK_LINKS_EXPLAIN'			=> 'Voorkom dat een gebruiker toegang krijgt tot links op het bord totdat hij het Cookiebeleid heeft geaccepteerd.',
 	'COOKIE_BOX_BDR_COLOUR'					=> 'Rand kleur voor de rand van het Cookie vak',
-	'COOKIE_BOX_BDR_COLOUR_EXPLAIN'			=> 'Selecteer de rand kleur voor het vak “Cookie acceptatie”.<br />De standaard kleur is <strong>“#FFFF8A”</strong>',
+	'COOKIE_BOX_BDR_COLOUR_EXPLAIN'			=> 'Selecteer de rand kleur voor het vak “Cookie acceptatie”.<br>De standaard kleur is <strong>“#FFFF8A”</strong>',
 	'COOKIE_BOX_BDR_WIDTH'					=> 'Cookie vak rand breedte',
-	'COOKIE_BOX_BDR_WIDTH_EXPLAIN'			=> 'Selecteer de rand breedte voor het vak “Cookie acceptatie”.<br />De standaard breedte is <strong>“1”</strong>',
+	'COOKIE_BOX_BDR_WIDTH_EXPLAIN'			=> 'Selecteer de rand breedte voor het vak “Cookie acceptatie”.<br>De standaard breedte is <strong>“1”</strong>',
 	'COOKIE_BOX_BG_COLOUR'					=> 'Cookie vak achtergrondkleur',
-	'COOKIE_BOX_BG_COLOUR_EXPLAIN'			=> 'Selecteer de achtergrondkleur voor het vak “Cookie acceptatie”.<br />The default colour is <strong>“#00608F”</strong>',
+	'COOKIE_BOX_BG_COLOUR_EXPLAIN'			=> 'Selecteer de achtergrondkleur voor het vak “Cookie acceptatie”.<br>The default colour is <strong>“#00608F”</strong>',
 	'COOKIE_BOX_HREF_COLOUR'				=> 'Cookie vak link kleur',
-	'COOKIE_BOX_HREF_COLOUR_EXPLAIN'		=> 'Selecteer de kleur van de acceptatie link voor het vak “Cookie acceptatie”.<br />De standaard kleur is <strong>“#FFFFFF”</strong>',
+	'COOKIE_BOX_HREF_COLOUR_EXPLAIN'		=> 'Selecteer de kleur van de acceptatie link voor het vak “Cookie acceptatie”.<br>De standaard kleur is <strong>“#FFFFFF”</strong>',
 	'COOKIE_BOX_TXT_COLOUR'					=> 'Cookie vak tekstkleur',
-	'COOKIE_BOX_TXT_COLOUR_EXPLAIN'			=> 'Selecteer de tekstkleur voor het vak “Cookie acceptatie”.<br />De standaard kleur is <strong>“#DBDB00”</strong>',
+	'COOKIE_BOX_TXT_COLOUR_EXPLAIN'			=> 'Selecteer de tekstkleur voor het vak “Cookie acceptatie”.<br>De standaard kleur is <strong>“#DBDB00”</strong>',
 
 	'COOKIE_CUSTOM_PAGE'					=> 'Gebruik aangepaste kleuren voor de cookie pagina',
 	'COOKIE_CUSTOM_PAGE_CORNERS'			=> 'Gebruik afgeronde hoeken',
-	'COOKIE_CUSTOM_PAGE_CORNERS_EXPLAIN'	=> 'Gebruik afgeronde hoeken op de cookiebeleid pagina.<br />Als u dit instelt op <strong>Nee</strong>, betekent dit dat de pagina vierkante hoeken heeft.',
-	'COOKIE_CUSTOM_PAGE_EXPLAIN'			=> 'Gebruik de aangepaste kleuren voor de cookiebeleid pagina.<br />Als u dit instelt op <strong>Nee</strong>, worden de standaard kleuren van uw stijl gebruikt.',
+	'COOKIE_CUSTOM_PAGE_CORNERS_EXPLAIN'	=> 'Gebruik afgeronde hoeken op de cookiebeleid pagina.<br>Als u dit instelt op <strong>Nee</strong>, betekent dit dat de pagina vierkante hoeken heeft.',
+	'COOKIE_CUSTOM_PAGE_EXPLAIN'			=> 'Gebruik de aangepaste kleuren voor de cookiebeleid pagina.<br>Als u dit instelt op <strong>Nee</strong>, worden de standaard kleuren van uw stijl gebruikt.',
 	'COOKIE_CUSTOM_PAGE_RADIUS'				=> 'Aangepaste pagina radius',
-	'COOKIE_CUSTOM_PAGE_RADIUS_EXPLAIN'		=> 'Stelt het aantal pixels in voor het afronden van de aangepaste hoeken van de cookie pagina. Als u dit op 0 instelt, betekent dit dat de pagina vierkante hoeken heeft.<br /><em>De standaardwaarde voor prosilver is 7px.</em>',
+	'COOKIE_CUSTOM_PAGE_RADIUS_EXPLAIN'		=> 'Stelt het aantal pixels in voor het afronden van de aangepaste hoeken van de cookie pagina. Als u dit op 0 instelt, betekent dit dat de pagina vierkante hoeken heeft.<br><em>De standaardwaarde voor prosilver is 7px.</em>',
 
 	'COOKIE_EXPIRE'							=> 'Cookie vervalt',
 	'COOKIE_EXPIRE_EXPLAIN'					=> 'Als u dit instelt op Ja, moet de gebruiker het Cookiebeleid jaarlijks opnieuw accepteren.',
@@ -78,33 +77,37 @@ $lang = array_merge($lang, array(
 	'COOKIE_POLICY_OPTIONS'					=> 'Cookie beleidsopties',
 
 	'COOKIE_REQUIRE'						=> 'Vereisen van cookie acceptatie',
-	'COOKIE_REQUIRE_EXPLAIN'				=> 'Vereis dat forum cookies worden geaccepteerd voordat een lid zich kan registreren of kan inloggen.<br />Als u dit op "Ja" instelt, kan een gebruiker het bord nog steeds bekijken (afhankelijk van de rechten).',
+	'COOKIE_REQUIRE_EXPLAIN'				=> 'Vereis dat forum cookies worden geaccepteerd voordat een lid zich kan registreren of kan inloggen.<br>Als u dit op "Ja" instelt, kan een gebruiker het bord nog steeds bekijken (afhankelijk van de rechten).',
 
 	'COOKIE_SHOW_POLICY'					=> 'Toon privacy/cookie beleid',
 	'COOKIE_SHOW_POLICY_EXPLAIN'			=> 'Als u dit instelt op ja, wordt in de navigatie balk een link weergegeven naar het privacy/cookiebeleid wanneer het Cookiebeleid is uitgeschakeld, dat wil zeggen dat u een privacy/cookiebeleid kunt hebben zonder dat u het acceptatie vak hoeft te hebben.',
 
 	'CUSTOM_BOX_COLOURS'					=> 'Cookie vak kleuren',
 	'CUSTOM_BOX_COLOURS_EXPLAIN'			=> '<strong>Hier kunt u de kleuren aanpassen aan uw stijl voor het vak Cookie acceptatie.</strong>',
+	'COOKIE_BOX_TOP'						=> 'Cookie box top',
+	'COOKIE_BOX_TOP_EXPLAIN'				=> 'Stel hier in hoever van de bovenkant van het venster dat u wilt dat de cookie acceptatiebox wordt geplaatst.<br><strong>Notitie 1:</strong> Als het venster kleiner is dan de hier ingestelde waarde, verschijnt het cookie vak onder aan het venster.<br><strong>Notitie 2:</strong> Als u de waarde instelt op <strong>“0”</strong>, wordt het vak boven aan het venster weergegeven.<br><strong>Notitie 3:</strong> Als u de waarde instelt op <strong>“9999”</strong>, wordt het vak onder aan het venster weergegeven.',
 	'CUSTOM_PAGE_COLOURS'					=> 'Aangepaste cookie pagina opties',
 	'CUSTOM_PAGE_COLOURS_EXPLAIN'			=> '<strong>Hier kunt u de kleuren wijzigen en/of afgeronde hoeken instellen die passen bij uw stijl voor de pagina Cookiebeleid.</strong>',
 
 	'PIXELS'								=> 'px',
 	'POLICIES'								=> 'Beleid',
 	'PRIVACY_POLICY_ANONYMISE'				=> 'IP-adressen anonimiseren',
-	'PRIVACY_POLICY_ANONYMISE_EXPLAIN'		=> 'Anonimiseer het IP-adres van de gebruiker op berichten, polls en PB’s.<br /><em>Het echte IP-adres van de gebruiker wordt nog steeds gebruikt in delen van het forum waar dit nodig is voor het juiste beheer van het forum.</em>',
+	'PRIVACY_POLICY_ANONYMISE_EXPLAIN'		=> 'Anonimiseer het IP-adres van de gebruiker op berichten, polls en PB’s.<br><em>Het echte IP-adres van de gebruiker wordt nog steeds gebruikt in delen van het forum waar dit nodig is voor het juiste beheer van het forum.</em>',
 	'PRIVACY_POLICY_ANONYMISE_IP'			=> 'IP-adres anonimiseren',
-	'PRIVACY_POLICY_ANONYMISE_IP_EXPLAIN'	=> 'Het IP-adres dat moet worden gebruikt voor de anonimisering.<br /><strong>This must be a valid IP address</strong>',
+	'PRIVACY_POLICY_ANONYMISE_IP_EXPLAIN'	=> 'Het IP-adres dat moet worden gebruikt voor de anonimisering.<br><strong>Dit moet een geldig IP-adres zijn</strong>',
 	'PRIVACY_POLICY_ENABLE'					=> 'Schakel het Privacybeleid in',
 	'PRIVACY_POLICY_ENABLE_EXPLAIN'			=> 'Schakel alle gebruikers vereisten in/uit om de GDPR (2018) op dit forum te accepteren.',
 	'PRIVACY_POLICY_FORCE'					=> 'Privacy acceptatie afdwingen',
 	'PRIVACY_POLICY_FORCE_EXPLAIN'			=> 'Alle gebruikers op dit forum dwingen om de GDPR te accepteren.',
+	'PRIVACY_POLICY_HIDE_CORE'				=> 'Verberg phpBB kern privacy links',
+	'PRIVACY_POLICY_HIDE_CORE_EXPLAIN'		=> 'Verwijder de vooraf gedefinieerde phpBB kern links Privacy en voorwaarden.<br><strong>Notitie:</strong>Dit is alleen relevant in versies van phpBB 3.2.3 of hoger.',
 	'PRIVACY_POLICY_LIST_LINES'				=> 'Privacybeleid regels',
 	'PRIVACY_POLICY_LIST_LINES_EXPLAIN'		=> 'Het aantal regels dat moet worden weergegeven in de <em>Privacybeleid Lijst</em>.',
 	'PRIVACY_POLICY_OPTIONS'				=> 'Privacybeleid opties',
 	'PRIVACY_POLICY_REMOVE'					=> 'Toon verwijder link',
 	'PRIVACY_POLICY_REMOVE_EXPLAIN'			=> 'Geef op het tabblad “Privacy gegevens” in de gebruikerscode van de gebruiker de mailto-link weer om de verwijdering van hun account aan te vragen.',
 	'PRIVACY_POLICY_RESET'					=> 'Reset beleid acceptatie',
-	'PRIVACY_POLICY_RESET_EXPLAIN'			=> 'Reset de acceptatie van het beleid zodat leden het Privacybeleid opnieuw moeten accepteren.<br />Zodra dit is uitgevoerd, moet u "<strong>Gedwongen privacy acceptatie</strong>" instellen op "<strong>Ja</strong>"<br />Als u deze optie op "Ja" zet, worden ook de phpBB cookies gereset waardoor alle leden opnieuw moeten inloggen.',
+	'PRIVACY_POLICY_RESET_EXPLAIN'			=> 'Reset de acceptatie van het beleid zodat leden het Privacybeleid opnieuw moeten accepteren.<br>Zodra dit is uitgevoerd, moet u "<strong>Gedwongen privacy acceptatie</strong>" instellen op "<strong>Ja</strong>"<br>Als u deze optie op "Ja" zet, worden ook de phpBB cookies gereset waardoor alle leden opnieuw moeten inloggen.',
 
 	'VERSION'								=> 'Versie',
 ));

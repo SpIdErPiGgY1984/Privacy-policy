@@ -3,7 +3,6 @@
 *
 * @package Privacy Policy Extension
 * @copyright (c) 2018 david63
-* Nederlandse vertaling @ Solidjeuh <https://www.muziekpromo.net>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 */
@@ -38,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'ACCEPT_DATE'		=> 'Beleids acceptatie datum',
+	'ACCEPT_DATE'		=> 'Beleids acceptatiedatum',
 
 	'BIRTHDAY'			=> 'Verjaardag',
 	'IP_ANONYMISED'		=> 'Uw IP-adressen werden geanonimiseerd',

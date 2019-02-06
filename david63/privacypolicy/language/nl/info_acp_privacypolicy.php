@@ -3,7 +3,6 @@
 *
 * @package Privacy Policy Extension
 * @copyright (c) 2018 david63
-* Nederlandse vertaling @ Solidjeuh <https://www.muziekpromo.net>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 */
@@ -44,8 +43,8 @@ $lang = array_merge($lang, array(
 	'COOKIE_POLICY'			        => 'Privacy & cookiebeleid',
 
 	'POLICY_RESET_LOG'		        => '<strong>Reset van beleid acceptatie</strong>',
-	'POLICY_USER_ACCEPT_LOG'	    => '<strong>Privacybeleid acceptatie ingesteld voor gebruiker</strong><br />»» %1$s',
-	'POLICY_USER_UNSET_LOG'		    => '<strong>Privacybeleid acceptatie uitgeschakeld voor gebruiker</strong><br />»» %1$s',
+	'POLICY_USER_ACCEPT_LOG'	    => '<strong>Privacybeleid acceptatie ingesteld voor gebruiker</strong><br>»» %1$s',
+	'POLICY_USER_UNSET_LOG'		    => '<strong>Privacybeleid acceptatie uitgeschakeld voor gebruiker</strong><br>»» %1$s',
 	'PRIVACY_DATA'			        => 'Privacy gegevens',
 	'PRIVACY_LIST'			        => 'Privacy lijst',
 	'PRIVACY_POLICY'		        => 'Privacybeleid',
@@ -56,5 +55,5 @@ $lang = array_merge($lang, array(
 	'PRIVACY_POLICY_MANAGE'		    => 'Privacybeleid instellingen',
 
 	'TAPATALK_INSTALLED'			=> 'Tapatalk gedetecteerd',
-	'TAPATALK_INSTALLED_EXPLAIN'	=> 'De Tapatalk extensie is gedetecteerd als zijnde geïnstalleerd op dit forum, wat niet compatibel is met de Privacybeleid extensie.<br /><br />Dit betekent dat alle Tapatalk gebruikers die dit forum bezoeken niet zullen worden onderworpen aan de vereisten van het Privacybeleid.',
+	'TAPATALK_INSTALLED_EXPLAIN'	=> 'De Tapatalk extensie is gedetecteerd als zijnde geïnstalleerd op dit forum, wat niet compatibel is met de Privacybeleid extensie.<br><br>Dit betekent dat alle Tapatalk gebruikers die dit forum bezoeken niet zullen worden onderworpen aan de vereisten van het Privacybeleid.',
 ));

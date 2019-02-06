@@ -3,7 +3,6 @@
 *
 * @package Privacy Policy Extension
 * @copyright (c) 2018 david63
-* Nederlandse vertaling @ Solidjeuh <https://www.muziekpromo.net>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 */
@@ -40,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ACCEPT' 				=> 'Ik accepteer dit beleid',
 
-	'COOKIE_ACCEPT_TEXT'	=> 'Dit forum maakt gebruik van cookies om je de beste en meest relevante ervaring te bieden. Als u dit forum wilt gebruiken, betekent dit dat u het beleid moet accepteren.<br />U kunt meer informatie over de gebruikte cookies vinden door op het "Cookiebeleid" op de hoofdpagina of de onderstaande link te klikken.<br />',
+	'COOKIE_ACCEPT_TEXT'	=> 'Dit forum maakt gebruik van cookies om je de beste en meest relevante ervaring te bieden. Als u dit forum wilt gebruiken, betekent dit dat u het beleid moet accepteren.<br>U kunt meer informatie over de gebruikte cookies vinden door op het "Cookiebeleid" op de hoofdpagina of de onderstaande link te klikken.<br>',
 	'COOKIE_ACCEPT'			=> '[ Ik accepteer ]',
 	'COOKIE_ACCESS'			=> 'Cookie Toegang',
 

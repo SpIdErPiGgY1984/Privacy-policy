@@ -37,8 +37,8 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, [
-	'EXT_ENABLE_ERROR' 		=> 'Voor deze extensie is phpBB 3.2.2 (of hoger) vereist.',
-	'COOKIE_POLICY_FOUND'	=> 'U kunt deze extensie niet installeren terwijl u de extensie "Cookiebeleid" nog steeds hebt geïnstalleerd.<br>Schakel de extensie uit en verwijder de gegevens van de extensie "Cookiebeleid" en probeer het opnieuw.',
+	'EXT_ENABLE_ERROR' 		=> 'Deze extensie vereist phpBB 3.3.0 (of hoger).',
+	'COOKIE_POLICY_FOUND'	=> 'U kunt deze extensie niet installeren zolang de extensie “Cookiebeleid” nog is geïnstalleerd.<br>Schakel de gegevens voor de extensie "Cookiebeleid” uit, verwijder deze en probeer het opnieuw.',
 ]);
 
 /**

@@ -41,7 +41,7 @@ $lang = array_merge($lang, array(
 
 	'REMOVE_ACCOUNT'				=> 'Klik op deze link om een e-mail te sturen naar de beheerder van het forum met het verzoek om uw account te verwijderen',
 	'REMOVE_MY_ACCOUNT'				=> 'Gelieve mijn account te verwijderen',
-	'REMOVE_MY_ACCOUNT_BODY'		=> 'Ik wens niet langer lid te zijn van dit forum en wil je vragen dat mijn gegevens worden verwijderd in overeenstemming met de GDPR (2018) wetgeving. %1$sMijn gebruikersnaam is %2$s',
+	'REMOVE_MY_ACCOUNT_BODY'		=> 'Ik wil niet langer lid zijn van dit bestuur en verzoek dat mijn gegevens worden verwijderd in overeenstemming met de AVG (2018) regels.%1$sMijn gebruikersnaam is %2$s%1$s%1$sDe reden waarom ik dit wens te verwijderen is [voer reden in. Als er geen reden is opgegeven, worden uw gegevens niet verwijderd.]',
 
 	'UCP_PRIVACY_POLICY_EXPLAIN'	=> 'Hieronder vindt u de details van uw persoonlijke gegevens die wij op deze site opslaan.',
 	'UCP_PRIVACY_TITLE'				=> 'Privacybeleid Gegevens',

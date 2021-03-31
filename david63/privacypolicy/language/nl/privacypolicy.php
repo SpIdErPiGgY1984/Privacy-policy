@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'COOKIE_ACCEPT'			=> '[ Ik accepteer ]',
 	'COOKIE_ACCESS'			=> 'Cookie Toegang',
 
-	'COOKIE_BLOCK'			=> 'Je hebt geen toegang tot de links op dit bord totdat je het Cookiebeleid hebt geaccepteerd.',
+	'COOKIE_BLOCK'			=> 'Je hebt geen toegang tot de links op dit forum totdat je het Cookiebeleid hebt geaccepteerd.',
 
 	'COOKIE_POLICY'			=> 'Cookie beleid',
 	'COOKIE_PRIV_POLICY'	=> 'Cookie/Privacybeleid',
@@ -56,4 +56,5 @@ $lang = array_merge($lang, array(
 	'HR_BBCODE_HELPLINE' 	=> 'Horizontale lijn invoegen',
 
 	'POLICY_ACCEPT' 		=> 'Accepteer privacybeleid',
+	'POLICY_EXPLAIN'		=> 'Geef het privacy en cookiebeleid voor dit forum weer',
 ));

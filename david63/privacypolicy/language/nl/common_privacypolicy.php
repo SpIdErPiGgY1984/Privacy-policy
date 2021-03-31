@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'ACCEPT_DATE'		=> 'Beleids acceptatiedatum',
+	'ACCEPT_DATE'		=> 'Beleid acceptatiedatum',
 
 	'BIRTHDAY'			=> 'Verjaardag',
 	'IP_ANONYMISED'		=> 'Uw IP-adressen werden geanonimiseerd',
@@ -51,6 +51,6 @@ $lang = array_merge($lang, array(
 
 	'USERNAME'			=> 'Gebruikersnaam',
 	'USER_IPS'			=> 'IP adressen die u hebt gebruikt',
-	
+
 	'VERSION'			=> 'Versie',
 ));

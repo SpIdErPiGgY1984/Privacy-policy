@@ -46,7 +46,7 @@ $lang = array_merge($lang, array(
 
 	'INVALID_USERNAME'				=> 'Ongeldige gebruikersnaam opgegeven',
 
-	'NO_IPS_FOUND'				    => 'Geen IP’s gevonden',
+	'NO_IPS_FOUND'					=> 'Geen IP’s gevonden',
 	'NO_USERNAME'					=> 'Geen gebruikersnaam ingevoerd',
 
 	'POLICY_ACCEPTANCE_SET'			=> 'Privacybeleid acceptatie ingesteld voor %1$s',

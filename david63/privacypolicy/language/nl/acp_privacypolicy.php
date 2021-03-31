@@ -82,9 +82,9 @@ $lang = array_merge($lang, array(
 	'COOKIE_SHOW_POLICY'					=> 'Toon privacy/cookie beleid',
 	'COOKIE_SHOW_POLICY_EXPLAIN'			=> 'Als u dit instelt op ja, wordt in de navigatie balk een link weergegeven naar het privacy/cookiebeleid wanneer het Cookiebeleid is uitgeschakeld, dat wil zeggen dat u een privacy/cookiebeleid kunt hebben zonder dat u het acceptatie vak hoeft te hebben.',
 
-	'CUSTOM_BOX_COLOURS'					=> 'Cookie vak kleuren',
-	'CUSTOM_BOX_COLOURS_EXPLAIN'			=> '<strong>Hier kunt u de kleuren aanpassen aan uw stijl voor het vak Cookie acceptatie.</strong>',
-	'COOKIE_BOX_TOP'						=> 'Cookie box top',
+	'CUSTOM_BOX_OPTIONS'					=> 'Cookie vak opties',
+	'CUSTOM_BOX_OPTIONS_EXPLAIN'			=> '<strong>Hier kunt u de opties aanpassen aan uw stijl voor het Cookie acceptatievak.</strong>',
+	'COOKIE_BOX_TOP'						=> 'Cookie vak top',
 	'COOKIE_BOX_TOP_EXPLAIN'				=> 'Stel hier in hoever van de bovenkant van het venster dat u wilt dat de cookie acceptatiebox wordt geplaatst.<br><strong>Notitie 1:</strong> Als het venster kleiner is dan de hier ingestelde waarde, verschijnt het cookie vak onder aan het venster.<br><strong>Notitie 2:</strong> Als u de waarde instelt op <strong>“0”</strong>, wordt het vak boven aan het venster weergegeven.<br><strong>Notitie 3:</strong> Als u de waarde instelt op <strong>“9999”</strong>, wordt het vak onder aan het venster weergegeven.',
 	'CUSTOM_PAGE_COLOURS'					=> 'Aangepaste cookie pagina opties',
 	'CUSTOM_PAGE_COLOURS_EXPLAIN'			=> '<strong>Hier kunt u de kleuren wijzigen en/of afgeronde hoeken instellen die passen bij uw stijl voor de pagina Cookiebeleid.</strong>',
@@ -108,6 +108,4 @@ $lang = array_merge($lang, array(
 	'PRIVACY_POLICY_REMOVE_EXPLAIN'			=> 'Geef op het tabblad “Privacy gegevens” in de gebruikerscode van de gebruiker de mailto-link weer om de verwijdering van hun account aan te vragen.',
 	'PRIVACY_POLICY_RESET'					=> 'Reset beleid acceptatie',
 	'PRIVACY_POLICY_RESET_EXPLAIN'			=> 'Reset de acceptatie van het beleid zodat leden het Privacybeleid opnieuw moeten accepteren.<br>Zodra dit is uitgevoerd, moet u "<strong>Gedwongen privacy acceptatie</strong>" instellen op "<strong>Ja</strong>"<br>Als u deze optie op "Ja" zet, worden ook de phpBB cookies gereset waardoor alle leden opnieuw moeten inloggen.',
-
-	'VERSION'								=> 'Versie',
 ));

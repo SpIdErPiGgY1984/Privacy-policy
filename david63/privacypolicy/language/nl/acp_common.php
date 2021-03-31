@@ -36,8 +36,19 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 //
 
+
 $lang = array_merge($lang, array(
-	'ACL_A_PRIVACY_MANAGE'	=> 'Kan privacy opties beheren',
-	'ACL_A_PRIVACY_VIEW'	=> 'Kan privacygegevens van gebruikers bekijken',
-	'ACL_U_PRIVACY_VIEW'	=> 'Kan privacygegevens bekijken',
+	'DONATE'					=> 'Doneer',
+	'DONATE_EXTENSIONS'			=> 'Doneer aan mijn extensies',
+	'DONATE_EXTENSIONS_EXPLAIN'	=> 'Deze extensie is, net als al mijn extensies, volledig gratis. Als u er baat bij heeft gehad, overweeg dan om een donatie te doen door op de PayPal donatieknop hiernaast te klikken - ik zou het op prijs stellen. Ik beloof dat er geen spam zal zijn, noch verzoeken om verdere donaties, hoewel ze altijd welkom zouden zijn.',
+
+	'NEW_VERSION'				=> 'Nieuwe versie - %s',
+	'NEW_VERSION_EXPLAIN'		=> 'Versie %1$s van deze extensie kan nu worden gedownload.<br>%2$s',
+	'NEW_VERSION_LINK'			=> 'Download hier',
+	'NO_VERSION_EXPLAIN'		=> 'Versie update informatie is niet beschikbaar.',
+
+	'PAYPAL_BUTTON'				=> 'Doneer met de PayPa knop',
+	'PAYPAL_TITLE'				=> 'PayPal - De veiligere, gemakkelijkere manier om online te betalen!',
+
+	'VERSION'					=> 'Versie',
 ));
